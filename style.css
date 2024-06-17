@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Open-Sans", sans-serif;
+}
+
+.conteiner {
+    width: 1200px;
+    margin: 0 auto;
+}
+.wrapper{
+    border-radius: 5px;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: space-between;
+}
+.button-holder {
+    display: flex;
+}
+button {
+    width: 200px;
+}
+button a {
+    color: black;
+    text-transform: uppercase;
+}
+.content {
+    margin-left: 100px ;
+}
+.titile{
+    width: 570px;
+    padding: 30px 0px;
+}
+.titile h1{
+    font-weight: 700 ;
+    font-size: 30px;
+}
+.text{
+    width: 570px;
+    height: 210px;
+}
+
+.text h2 {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Raleway", sans-serif;
+}
+.download a{
+    color: #fff;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.download{
+    background: #ec7979;
+    width: 270px;
+    height: 60px;
+    border: 0;
+}
